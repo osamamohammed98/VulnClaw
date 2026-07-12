@@ -22,7 +22,6 @@ env/
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
@@ -48,8 +47,6 @@ htmlcov/
 coverage.xml
 
 # Environment / secrets
-.env
-.env.*
 !.env.example
 
 # Temp / local files
@@ -86,3 +83,5 @@ docs/
 
 # 开发中途产生的临时文件
 .projectHelp/
+config.bat
+node_modules
